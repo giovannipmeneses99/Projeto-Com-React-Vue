@@ -1,0 +1,38 @@
+.todo-container{
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+}
+.todo-container.react{
+  border-top: 5px solid #61dafb;
+}
+.input-box{
+  display: flex;
+  gap: 8px;
+  margin: 15px 0;
+}
+.input-box input{
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+.input-box button{
+  background: #7c3aed;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+ul{ padding: 0; }
+li{
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
